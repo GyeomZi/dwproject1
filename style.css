@@ -1,0 +1,60 @@
+/* 스타일 시트 예제 */
+body {
+  font-family: Arial, sans-serif;
+}
+/* 폰트효과 */
+
+header {
+  background-color: skyblue;
+  color: #fff;
+  padding: 20px;
+}
+/* 시작 배너 꾸미기 */
+
+nav ul {
+  list-style: none;
+}
+/* 시작 배너 UL 제거용 */
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+/* 시작 배너 글자 */
+
+main {
+  padding: 50px;
+  border: 1px solid gray;
+}
+/* 중간 지점 꾸미기 */
+
+main section {
+  font-size: 13px;
+}
+
+main section :hover {
+  font-size: 24px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+/* 소 제목 */
+
+main section3 {
+  font-size: 16px;
+}
+/* 대 제목 */
+
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: skyblue;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+/* 배너 맨 아래쪽 */
+@media screen and (max-width: 800px) {
+}
